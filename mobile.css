@@ -1,0 +1,35 @@
+@media (max-width: 800px) {
+  .wrap { width: min(calc(100% - 40px), var(--max)); }
+  .site-header { height: 72px; }
+  nav { gap: 16px; }
+  nav a { font-size: 12px; }
+  .hero { grid-template-columns: 1fr; gap: 36px; padding: 45px 0 55px; min-height: auto; }
+  .hero h1 { font-size: 52px; }
+  .intro { font-size: 18px; }
+  .hero-panel { min-height: 270px; }
+  .statement { font-size: 18px; }
+  .work, .experience { padding: 76px 0; }
+  .section-heading, .case-intro, .technical-note { grid-template-columns: 1fr; display: grid; gap: 20px; align-items: start; }
+  .project, .split-project { grid-template-columns: 1fr; gap: 31px; padding: 40px 0; }
+  .featured-project .project-image, .split-project .project-image { min-height: 0; aspect-ratio: 1.22; }
+  .case-study { padding: 76px 0; }
+  .case-grid, .capability-grid { grid-template-columns: 1fr; }
+  .case-card, .capability-grid article { border-right: 0; border-bottom: 1px solid #344054; margin: 0; padding: 28px 0; }
+  .journey { padding: 62px 0; }
+  .journey-heading { display: block; }
+  .journey ol { grid-template-columns: 1fr; gap: 20px; }
+  .journey li { border-left: 0; border-top: 1px solid #344054; padding: 17px 0 0; }
+  .experience-list article { grid-template-columns: 1fr; gap: 10px; padding: 24px 0; }
+  .capabilities { padding: 74px 0; }
+  .capability-grid article { border-color: var(--line); }
+  .contact { padding: 76px 0; }
+  .contact-row { display: block; }
+  .contact-row > div { margin-top: 28px; }
+  footer { gap: 13px; flex-wrap: wrap; }
+  .hero-actions { gap: 18px; }
+  .button { gap: 16px; }
+  .project-actions { flex-wrap: wrap; }
+  .case-intro h2 { font-size: 47px; }
+  .technical-note { gap: 15px; }
+  .technical-note h3 { font-size: 32px; }
+}
